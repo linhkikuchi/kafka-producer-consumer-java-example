@@ -1,0 +1,10 @@
+target/
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.idea/
+*.log
+.classpath
+.project
+.settings/
+*.iml
