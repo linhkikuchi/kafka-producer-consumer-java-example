@@ -61,7 +61,7 @@ public class ProducerConsumer {
                     else continue;
                 }
 
-                consumerRecords.forEach(record - > {
+                consumerRecords.forEach(record -> {
                     System.out.printf("Consumer Record:(%d, %s, %d, %d)\n",
                         record.key(), record.value(),
                         record.partition(), record.offset());
